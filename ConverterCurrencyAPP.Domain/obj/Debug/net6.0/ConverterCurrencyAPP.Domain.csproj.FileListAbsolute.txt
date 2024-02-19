@@ -1,0 +1,12 @@
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Domain\bin\Debug\net6.0\ConverterCurrencyAPP.Domain.deps.json
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Domain\bin\Debug\net6.0\ConverterCurrencyAPP.Domain.dll
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Domain\bin\Debug\net6.0\ConverterCurrencyAPP.Domain.pdb
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Domain\obj\Debug\net6.0\ConverterCurrencyAPP.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Domain\obj\Debug\net6.0\ConverterCurrencyAPP.Domain.AssemblyInfoInputs.cache
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Domain\obj\Debug\net6.0\ConverterCurrencyAPP.Domain.AssemblyInfo.cs
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Domain\obj\Debug\net6.0\ConverterCurrencyAPP.Domain.csproj.CoreCompileInputs.cache
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Domain\obj\Debug\net6.0\ConverterCurrencyAPP.Domain.sourcelink.json
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Domain\obj\Debug\net6.0\ConverterCurrencyAPP.Domain.dll
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Domain\obj\Debug\net6.0\refint\ConverterCurrencyAPP.Domain.dll
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Domain\obj\Debug\net6.0\ConverterCurrencyAPP.Domain.pdb
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Domain\obj\Debug\net6.0\ref\ConverterCurrencyAPP.Domain.dll

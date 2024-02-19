@@ -1,0 +1,17 @@
+.Currency{
+    float: left;
+    margin-right: 20px;
+}
+
+.currencyBold {
+    font-weight: bold;
+}
+
+.validationError {
+    width: 10%; 
+}
+
+.textError {    
+    margin-right: 50px;
+    color: red;
+}

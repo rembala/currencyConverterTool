@@ -1,0 +1,38 @@
+<div class="Currency">
+    <span class="currencyBold">Currency from:</span>
+      <select [(ngModel)]="selectedCurrencyOne" (change)="displayConvertedRate()">
+          <option *ngFor="let currency of currencies" value="{{currency.title}}">{{currency.title}}</option>
+      </select>
+  </div>
+  <div class="Currency">
+      <span class="currencyBold">Currency to:</span>
+      <select [(ngModel)]="selectedCurrencyTwo" (change)="displayConvertedRate()">
+          <option *ngFor="let currency of currencies" value="{{currency.title}}">{{currency.title}}</option>
+      </select>
+  </div>
+
+  <div class="Currency">
+    <span class="currencyBold">Converted rate:</span>
+    {{conversionRate}}
+</div>
+
+<div class="Currency">
+  <span class="currencyBold">Amount to convert</span>
+  <input type="number" min="0" [(ngModel)]="chosenAmount"/>
+</div>
+
+<button style="float: left;" (click)="convertCurrencyRate()">Convert</button>
+
+<span class="currencyBold">Converted result</span>
+{{convertedResult}}
+
+<div class="validationError">
+    <span *ngIf="validationErrors && validationErrors.length > 0" class="textError">Errors:</span>
+<ul *ngFor="let error of validationErrors">
+    <li>{{error}}</li>
+</ul>
+</div>
+
+<div *ngIf="errorMessage" style="background-color: red;">
+    <span>{{errorMessage}}</span>
+</div>

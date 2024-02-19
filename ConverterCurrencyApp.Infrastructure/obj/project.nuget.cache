@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "iSTC/xhZl71iXBtjcLfvKl51LFw1h7G0YLUAP9KLeNTfGYvApmICCKO6g9BI6FfcggmDmu1YGIkDzoHSyvl/1Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\artur\\source\\repos\\ConverterCurrencyAPP\\ConverterCurrencyApp.Infrastructure\\ConverterCurrencyApp.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\artur\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\artur\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\artur\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

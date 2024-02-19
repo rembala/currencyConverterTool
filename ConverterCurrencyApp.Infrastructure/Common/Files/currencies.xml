@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Cube>
+  <Cube currency='USD' rate='1.0768'/>
+  <Cube currency='JPY' rate='161.88'/>
+  <Cube currency='BGN' rate='1.9558'/>
+  <Cube currency='CZK' rate='25.460'/>
+  <Cube currency='DKK' rate='7.4546'/>
+  <Cube currency='GBP' rate='0.85605'/>
+  <Cube currency='HUF' rate='389.13'/>
+  <Cube currency='PLN' rate='4.3400'/>
+  <Cube currency='RON' rate='4.9771'/>
+  <Cube currency='SEK' rate='11.2655'/>
+  <Cube currency='CHF' rate='0.9491'/>
+  <Cube currency='ISK' rate='149.10'/>
+  <Cube currency='NOK' rate='11.3555'/>
+  <Cube currency='TRY' rate='33.1951'/>
+  <Cube currency='AUD' rate='1.6517'/>
+  <Cube currency='BRL' rate='5.3551'/>
+  <Cube currency='CAD' rate='1.4518'/>
+  <Cube currency='CNY' rate='7.7461'/>
+  <Cube currency='HKD' rate='8.4236'/>
+  <Cube currency='IDR' rate='16837.38'/>
+  <Cube currency='ILS' rate='3.8864'/>
+  <Cube currency='INR' rate='89.3815'/>
+  <Cube currency='KRW' rate='1435.09'/>
+  <Cube currency='MXN' rate='18.3536'/>
+  <Cube currency='MYR' rate='5.1476'/>
+  <Cube currency='NZD' rate='1.7648'/>
+  <Cube currency='PHP' rate='60.258'/>
+  <Cube currency='SGD' rate='1.4500'/>
+  <Cube currency='THB' rate='38.829'/>
+  <Cube currency='ZAR' rate='20.3375'/>
+</Cube>

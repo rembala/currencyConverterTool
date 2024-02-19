@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Common\currencies.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Common\Files\currencies.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConverterCurrencyAPP.Application\ConverterCurrencyAPP.Application.csproj" />
+    <ProjectReference Include="..\ConverterCurrencyAPP.Domain\ConverterCurrencyAPP.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

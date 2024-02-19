@@ -1,0 +1,16 @@
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Application\bin\Debug\net6.0\ConverterCurrencyAPP.Application.deps.json
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Application\bin\Debug\net6.0\ConverterCurrencyAPP.Application.dll
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Application\bin\Debug\net6.0\ConverterCurrencyAPP.Application.pdb
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Application\obj\Debug\net6.0\ConverterCurrencyAPP.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Application\obj\Debug\net6.0\ConverterCurrencyAPP.Application.AssemblyInfoInputs.cache
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Application\obj\Debug\net6.0\ConverterCurrencyAPP.Application.AssemblyInfo.cs
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Application\obj\Debug\net6.0\ConverterCurrencyAPP.Application.csproj.CoreCompileInputs.cache
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Application\obj\Debug\net6.0\ConverterCurrencyAPP.Application.sourcelink.json
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Application\obj\Debug\net6.0\ConverterCurrencyAPP.Application.dll
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Application\obj\Debug\net6.0\refint\ConverterCurrencyAPP.Application.dll
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Application\obj\Debug\net6.0\ConverterCurrencyAPP.Application.pdb
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Application\obj\Debug\net6.0\ref\ConverterCurrencyAPP.Application.dll
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Application\obj\Debug\net6.0\ConverterCurrencyAPP.Application.csproj.AssemblyReference.cache
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Application\bin\Debug\net6.0\ConverterCurrencyAPP.Domain.dll
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Application\bin\Debug\net6.0\ConverterCurrencyAPP.Domain.pdb
+C:\Users\artur\source\repos\ConverterCurrencyAPP\ConverterCurrencyAPP.Application\obj\Debug\net6.0\ConverterCurrencyAPP.Application.csproj.CopyComplete
