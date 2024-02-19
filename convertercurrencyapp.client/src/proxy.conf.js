@@ -1,7 +1,7 @@
 const PROXY_CONFIG = [
   {
     context: [
-      "/weatherforecast",
+      "/currencyconverter",
     ],
     target: "https://localhost:7004",
     secure: false

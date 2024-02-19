@@ -1,13 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "mL+2wHE9U0bKNj78Ba8xyt/Gvr48vero3Rqa6NLvs5iWoQopIjEZQyLXS3PXwz3FLdO+72qp08RhJBQqPTnJxQ==",
+  "dgSpecHash": "jUNfVKQ3kDWWGaiDuq/lSVBOh9oN9LE22+oCFpqeS8yaZFY7pFVZvYcrMRGvwdzk2GBp5WcmVCv1fiJlqnedKQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\artur\\source\\repos\\ConverterCurrencyAPP\\ConverterCurrencyAPP.Server\\ConverterCurrencyAPP.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\artur\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\artur\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\artur\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\6.0.27\\microsoft.aspnetcore.spaproxy.6.0.27.nupkg.sha512",
-    "C:\\Users\\artur\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    "C:\\Users\\artur\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\artur\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\artur\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\artur\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\artur\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -5,17 +5,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CurrencyConveterComponent } from './components/currency-conveter/currency-conveter.component';
+import { CurrencyConveterService } from './services/CurrencyConverterService';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    CurrencyConveterComponent
+    CurrencyConveterComponent,
+    AppComponent
   ],
   imports: [
-    BrowserModule, HttpClientModule,
-    AppRoutingModule
+    BrowserModule,
+    HttpClientModule,
+    AppRoutingModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [CurrencyConveterService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
