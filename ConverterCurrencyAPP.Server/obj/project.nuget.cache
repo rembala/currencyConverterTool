@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DE7KUYxXB2fIC/jtZwTf9/2JqG/OAYsK+XIkxLln0UfReza3ukHaqE45kLLC2d2sXTCj8OUmrMw5D+A8M/i4Gg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\artur\\source\\repos\\ConverterCurrencyAPP\\ConverterCurrencyAPP.Server\\ConverterCurrencyAPP.Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\artur\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\6.0.27\\microsoft.aspnetcore.spaproxy.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}

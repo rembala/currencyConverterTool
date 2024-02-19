@@ -1,0 +1,1 @@
+C:\Users\artur\source\repos\ConverterCurrencyAPP\convertercurrencyapp.client\obj\Debug\convertercurrencyapp.client.esproj.CoreCompileInputs.cache

@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:4200",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\artur\\source\\repos\\ConverterCurrencyAPP\\ConverterCurrencyAPP.Server\\..\\convertercurrencyapp.client",
+"MaxTimeoutInSeconds": "120"
+}
+}
