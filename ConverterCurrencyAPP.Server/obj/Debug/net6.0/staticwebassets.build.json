@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "qHCmfFb6GoIHpCz5l81VgVIMfe2u9MsVmyAnJr5vRMo=",
-  "Source": "ConverterCurrencyAPP.Server",
-  "BasePath": "_content/ConverterCurrencyAPP.Server",
+  "Hash": "aIpAumjN1doOo/xcrq3YidM0d2SrAFBzIHKpEl7y0fg=",
+  "Source": "ConverterCurrencyAPP.Presentation",
+  "BasePath": "_content/ConverterCurrencyAPP.Presentation",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
