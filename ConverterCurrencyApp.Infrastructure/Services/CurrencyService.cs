@@ -31,9 +31,14 @@ namespace ConverterCurrencyApp.Infrastructure.Services
             return ratesByCurrency;
         }
 
-        public decimal GetConvertedValue(string currencyTo, int amount, List<Currency> currencies)
+        public decimal GetConvertedValue(string currencyToTitle, int amount, List<Currency> currencies)
         {
-            var currencyToConvert = currencies.First(currency => currencyTo.Equals(currency.Title));
+            if (!currencies.Any(currency => currency.Title.Equals(currencyToTitle)))
+            {
+                throw new ArgumentException($"{currencyToTitle} does not exist");
+            }
+
+            var currencyToConvert = currencies.First(currency => currencyToTitle.Equals(currency.Title));
 
             var convertedResult = currencyToConvert.Rate * amount;
 

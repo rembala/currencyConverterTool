@@ -25,12 +25,12 @@ namespace ConverterCurrencyAPP.Application.Validation
 
             if (!currencyFromExists)
             {
-                errors.Add($"{currencyFrom} does not exist");
+                errors.Add($"{currencyFrom} currency does not exist");
             }
 
             if (!currencyToExists)
             {
-                errors.Add($"{currencyTo} does not exist");
+                errors.Add($"{currencyTo} currency does not exist");
             }
 
             return errors;

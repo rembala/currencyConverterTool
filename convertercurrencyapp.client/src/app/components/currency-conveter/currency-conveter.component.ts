@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CurrencyConveterService } from '../../services/CurrencyConverterService';
 import { Currency, CurrencyResponse, GetConvertedCurrencyRateResponse } from '../../models/currencyReponse';
+import { environment } from '../../environments/environments';
 
 @Component({
   selector: 'app-currency-conveter',
@@ -29,15 +30,19 @@ export class CurrencyConveterComponent implements OnInit {
 
   ngOnInit(): void {
     this.getCurrencies()
-    this.fetchCurrencyRatesEach20Minutes();
+    this.fetchCurrencyRatesBasedOnFrequeancy();
   }
 
   convertCurrencyRate(): void {
-    this.httpService.convertCurrency(this.selectedCurrencyOne, this.selectedCurrencyTwo, this.chosenAmount).subscribe(response => {
-      this.handleConvertCurrencyResponse(response);
-    }, (ex) => {
-       this.errorMessage = ex.error
-    });
+    this.httpService
+      .convertCurrency(
+        this.selectedCurrencyOne,
+        this.selectedCurrencyTwo,
+        this.chosenAmount
+      )
+      .subscribe((response) => {
+        this.handleConvertCurrencyResponse(response);
+      });
   }
 
   displayConvertedRate(): void {
@@ -56,8 +61,8 @@ export class CurrencyConveterComponent implements OnInit {
   }
 
   private getCurrencies() : void {
-    this.httpService.getCurrencies().subscribe(response => {
-      this.handleCurrencyResponse(response);      
+    this.httpService.getCurrencies().subscribe((response) => {
+      this.handleCurrencyResponse(response);
     });
   }
 
@@ -71,7 +76,7 @@ export class CurrencyConveterComponent implements OnInit {
     }
   }
 
-  private fetchCurrencyRatesEach20Minutes() {
-    setInterval(() => this.getCurrencies(), 4000);
+  private fetchCurrencyRatesBasedOnFrequeancy() {
+    setInterval(() => this.getCurrencies(), environment.frequency);
   }
 }

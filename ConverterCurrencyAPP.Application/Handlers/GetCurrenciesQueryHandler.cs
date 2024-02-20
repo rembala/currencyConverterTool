@@ -21,10 +21,12 @@ namespace ConverterCurrencyAPP.Application.Handlers
         {
             var currencies = _currencyService.GetCurrenciesFromFile();
 
-            var errors = _currencyValidation.GetRateValidationErrors(currencies);
+            var rateErrors = _currencyValidation.GetRateValidationErrors(currencies);
 
-            if (errors.Any())
+            if (rateErrors.Any())
             {
+                var errors = rateErrors.Select(rate => $"{rate} currency rate not found").ToList();
+
                 var responseWithErrros = new CurrencyResponse { Errors = errors };
 
                 return await Task.FromResult(responseWithErrros);
