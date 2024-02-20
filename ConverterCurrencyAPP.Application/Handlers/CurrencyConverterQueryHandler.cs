@@ -29,7 +29,7 @@ namespace ConverterCurrencyAPP.Application.Handlers
 
             var currencies = _currencyService.GetCurrenciesFromFile();
 
-            var result = _currencyService.GetConvertedValue(request.CurrencyTo, request.Amount, currencies);
+            var result = _currencyService.GetConvertedCurrencyRate(request.CurrencyTo, request.Amount, currencies);
 
             var response = new GetConvertedCurrencyRateResponse { ConvertedResult = result };
 

@@ -26,7 +26,7 @@ namespace ConverterCurrencyAPP.UnitTests.Services
         }
 
         [Test]
-        public void GetConvertedValue_MultiplyCurrencyTo_ShouldReturnMultipliedValue()
+        public void GetConvertedCurrencyRate_MultiplyCurrencyTo_ShouldReturnMultipliedValue()
         {
             var currencyService = new CurrencyService();
 
@@ -40,13 +40,13 @@ namespace ConverterCurrencyAPP.UnitTests.Services
 
             var amount = 12; 
 
-            var result = currencyService.GetConvertedValue(currencyTo, amount, currencies);
+            var result = currencyService.GetConvertedCurrencyRate(currencyTo, amount, currencies);
 
             Assert.That(result, Is.EqualTo(14.4));
         }
 
         [Test]
-        public void GetConvertedValue_CurrencyDoesNotExist_ThrowsException()
+        public void GetConvertedCurrencyRate_CurrencyDoesNotExist_ThrowsException()
         {
             var currencyService = new CurrencyService();
 
@@ -60,7 +60,7 @@ namespace ConverterCurrencyAPP.UnitTests.Services
 
             var amount = 12;
 
-            Assert.Throws<ArgumentException>(() => currencyService.GetConvertedValue(currencyTo, amount, currencies));
+            Assert.Throws<ArgumentException>(() => currencyService.GetConvertedCurrencyRate(currencyTo, amount, currencies));
         }
     }
 }

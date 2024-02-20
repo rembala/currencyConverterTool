@@ -6,6 +6,6 @@ namespace ConverterCurrencyAPP.Application.Interfaces.Services
     {
         List<Currency> GetCurrenciesFromFile();
 
-        decimal GetConvertedValue(string to, int amount, List<Currency> currencies);
+        decimal GetConvertedCurrencyRate(string to, int amount, List<Currency> currencies);
     }
 }

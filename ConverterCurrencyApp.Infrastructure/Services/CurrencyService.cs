@@ -31,7 +31,7 @@ namespace ConverterCurrencyApp.Infrastructure.Services
             return ratesByCurrency;
         }
 
-        public decimal GetConvertedValue(string currencyToTitle, int amount, List<Currency> currencies)
+        public decimal GetConvertedCurrencyRate(string currencyToTitle, int amount, List<Currency> currencies)
         {
             if (!currencies.Any(currency => currency.Title.Equals(currencyToTitle)))
             {

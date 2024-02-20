@@ -17,7 +17,7 @@ namespace ConverterCurrencyAPP.Server.Controllers
         }
 
         [HttpGet]
-        public async Task<CurrencyResponse> GetCurrency()
+        public async Task<CurrencyResponse> GetCurrencies()
         {
             var currencies = await _sender.Send(new GetCurrencyRequest { });
 
